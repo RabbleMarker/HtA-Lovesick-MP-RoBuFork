@@ -1,0 +1,9 @@
+owner = PDN
+controller = PDN
+
+trade_goods = coal
+life_rating = 35
+
+
+add_core = PDN
+add_core = DAU

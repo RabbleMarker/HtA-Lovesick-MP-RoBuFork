@@ -1,0 +1,13 @@
+owner = BRA
+controller = BRA
+add_core = GER
+trade_goods = fruit
+life_rating = 38
+
+state_building = {
+	level = 2 
+	building = winery
+	upgrade = yes
+}
+
+add_core = BRA
