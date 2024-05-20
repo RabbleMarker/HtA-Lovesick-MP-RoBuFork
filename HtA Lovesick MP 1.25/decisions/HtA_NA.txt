@@ -319,7 +319,6 @@ invade_the_mexicans_scw = {
 			}
 		}
 		effect = {
-			add_accepted_culture = afro_american
 			add_accepted_culture = margarian
 			inherit = NHL
 			inherit = QUE

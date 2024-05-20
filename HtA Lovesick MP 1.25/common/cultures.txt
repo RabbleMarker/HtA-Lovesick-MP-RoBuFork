@@ -1815,6 +1815,15 @@ neo_european_cultures = {
 		Rye Sissener Skjalgsson Tambarskjelve Tordenskjold Wedel-Jarlsberg Wiborg With Zeiner-Gundersen
 		}
 	}
+	meikan = {
+		color = { 122  232  118 }
+		first_names = { Alban Andieu Alòi Archambaut Aymar Beròt Bérard Bernat Berengar Carles Estève Fidèl Pèire
+		Frederic Guiraud Huc Jan Jacin Laurenç Martin Nicolau Privat Roman Raimond Rogier Raimond-Rogier Vincenç }
+		
+		last_names = { Okkita Ahuactzin Altamiran Badian Bernardin Coaguila Coyotl Cuautlaxahue 
+		Huanitzin Itzel Ixtlilxochitl Matlacuahuac Mayahuel Moxo Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valerian Xaxalpa Zicoténcatl Xochitl Zapata Zapotitla }
+	}
 	nieuwlander = {
 		color = {136  157  48}
 		first_names = { 
@@ -2036,15 +2045,6 @@ latin_american_cultures = {
 		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas Zaldúa
 		}
 		radicalism = 15
-	}
-	meikan = {
-		color = { 122  232  118 }
-		first_names = { Alban Andieu Alòi Archambaut Aymar Beròt Bérard Bernat Berengar Carles Estève Fidèl Pèire
-		Frederic Guiraud Huc Jan Jacin Laurenç Martin Nicolau Privat Roman Raimond Rogier Raimond-Rogier Vincenç }
-		
-		last_names = { Okkita Ahuactzin Altamiran Badian Bernardin Coaguila Coyotl Cuautlaxahue 
-		Huanitzin Itzel Ixtlilxochitl Matlacuahuac Mayahuel Moxo Nahui Ocelotl
-		Panecatl Tlaxca Tletla Tzehe Valerian Xaxalpa Zicoténcatl Xochitl Zapata Zapotitla }
 	}
 	califiano = {
 		color = { 166  72  57 }

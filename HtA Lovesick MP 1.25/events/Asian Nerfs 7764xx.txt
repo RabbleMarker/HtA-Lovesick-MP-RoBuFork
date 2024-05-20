@@ -36,49 +36,53 @@ country_event = {
 	}
 }
 
-#country_event = {
-#	id = 776404
-#	title = "776405"
-#	desc = "EVTDESC776405"
-#	picture = "xinhai"
-#	
-#	trigger = {
-#		tag = GHO
-#		NOT = { has_country_flag = european_economic_compensation }
-#	}
-#	
-#	mean_time_to_happen = {
-#		days = 1
-#	}
-#	
-#	immediate = {
-#		name = "EVTOPTA776405"
-#		set_country_flag = european_economic_compensation
-#		any_country = {
-#		any_pop ={
-#		limit = {
-#			OR {
-#				has_pop_culture = catalan
-#				has_pop_culture = aquitanian
-#				has_pop_culture = basque
-#				has_pop_culture = french
-#				has_pop_culture = briton
-#				has_pop_culture = wallonian
-#				has_pop_culture = cisalpine
-#				has_pop_culture = dutch
-#				has_pop_culture = picard
-#				has_pop_culture = flemish
-#					}			
-#			}
-#		#reduce_pop = 1.15
-#		}
-#	}
-#}
-#	
-#	option = {
-#		name = "Thanks!"
-#	}
-#}
+country_event = {
+	id = 776402
+	title = "776405"
+	desc = "EVTDESC776405"
+	picture = "xinhai"
+	
+	trigger = {
+		tag = GHO
+		NOT = { has_country_flag = european_economic_compensation }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		name = "EVTOPTA776405"
+		set_country_flag = european_economic_compensation
+		any_country = {
+		any_pop ={
+		limit = {
+			OR {
+				has_pop_culture = catalan
+				has_pop_culture = aquitanian
+				has_pop_culture = basque
+				has_pop_culture = french
+				has_pop_culture = briton
+				has_pop_culture = wallonian
+				has_pop_culture = cisalpine
+				has_pop_culture = dutch
+				has_pop_culture = picard
+				has_pop_culture = flemish
+				has_pop_culture = sicilian
+				has_pop_culture = hungarian
+				has_pop_culture = danish
+				has_pop_culture = finnish
+					}			
+			}
+		reduce_pop = 1.15
+		}
+	}
+}
+	
+	option = {
+		name = "Thanks!"
+	}
+}
 
 country_event = {
 	id = 776411
