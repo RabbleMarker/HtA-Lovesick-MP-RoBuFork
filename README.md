@@ -17,7 +17,9 @@ Summary of Changes:
 * Removed unneeded events like the ebin chinese civil war.
 * Pop rebalances: Slight buff to nu-world since they start depopulated as fuck in this mod (15%). Nerf Japanese starting Pop (-20%, puts them even with most mods). Gave Japan the Persian Conquest RP nerf (-25% conquest RP)
   > World should be moderately industrialized now but will still be less industrialized than most mods. Artisans pick up the slack though.
-* Added starting Spheres where they made sense or influence so a country can get sphered quickly if the player wants to.
+* Cultures merged or fixed, referecing the actual L O R E of the HtA setting where the creator fucked up and forgot to change it.
+ >For example, Afro Latino pops in colonies owned and colonized by Engerland, Gidan being majority Afro-Carribbean but was a French colony for like 400+ years and an English one for 20, etc. etc. This is setting up for new paths for nations such as France reclaiming Gidan.
+* Added starting Spheres and Alliances where they made sense or influence so a country can get sphered quickly if the player wants to.
 * Added Treaty Ports
   * Made the Dutch's Treaty Port in Japan an actual Treaty Port so they have a reason to hold onto it. If Japan takes it back the treaty port is destroyed though, although they get a buff for doing so.
 * Redid some ugly ass region borders.
