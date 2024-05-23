@@ -1,6 +1,0 @@
-trade_goods = wool
-terrain = mountain
-life_rating = 15
-colonial = 1
-
-
