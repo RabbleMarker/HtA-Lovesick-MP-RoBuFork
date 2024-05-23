@@ -290,13 +290,13 @@ incite_ukrainians_desc;The Ukrainians have long had a separate identity from the
 incorporate_brabant_title;Incorporate Brabant into the Netherlands;;;;;;;;;x
 incorporate_brabant_desc;Now that we've claimed Zeeland, why not just get the rest of the Duchy of Brabant, too? After all, its inhabitants are all Dutch speakers, even if they have a strange dialect. Incorporating the Flemish of Brabant is a natural step in continuing to ensure our greatness.;;;;;;;;;;x
 info_german_title;HtA Germany Info;x
-info_german_desc;The big three in Germany are of course the big B's - Bavaria, Brandenburg and Brunswick. For now, each contender has nothing special about them, later on I'm planning on adding specific bonuses per formable (Brunswick will get Steelkooner for example). If you only have enough players for 2 Germans, slot Brandenburg and Bavaria as the North German contender can easily create NGF.;x
+info_german_desc;The big three in Germany are of course the big B's - Bavaria, Brandenburg and Brunswick. Each Contender has some special path: Bavaria can increase the Life Rating of Austria/Helvetica and get Slovene, Brunswick can get Steenkooler and it's associated decisions, and Brandenburg is the only one who can get Silesia and Prusai accepted, plus Ashkenazi.;x
 info_MLT_title;HtA Malta Info;x
 info_MLT_desc;why the fuck are you playing this nation lmao;x
 info_PDN_title;HtA Padan Union Info;x
 info_PDN_desc;It's generally not recommended to slot a Padan player: Aquitania gets Cisalpine and Rome gets Italian so the chances of anyone supporting Padan is slim to none. Instead slot a Naples only, they can quickly get cores over Padan anyway.;x
 info_POL_title;HtA Poland Info;x
-info_POL_desc;Zachadia is a West Slavic super state that can be formed by either Poland or Bohemia. Bohemia keeps Hungarian while Poland keeps Prusai and Ashkanazi. Right now they are competing formables, but Demonade disabled alternate paths for each nation where they don't have to kill each other. This may be enabled at a later time.;x
+info_POL_desc;Zachadia is a West Slavic super state that can be formed by either Poland or Bohemia. Bohemia keeps Hungarian while Poland keeps Ashkanazi. Right now they are competing formables, but Demonade disabled alternate paths for each nation where they don't have to kill each other. This may be enabled at a later time.;x
 info_RUS_title;HtA Russia Info;x
 info_RUS_desc;While the Civil War seems lopsided from raw pop numbers, you're actually evenly matched with Smolensk. Your main issue will be dealing with Zachadia and Finland trying to intervene in your civil war to snipe land off you. Right now the only differences between the formables is the choice between Tartar or Urgian, you both will be able to get Ukranian, Ruthenian, and Byelorussian. Later Russia will likely have DoD 'Northern Path' style decisions.;x
 info_SML_title;HtA Smolensk Info;x
@@ -310,7 +310,7 @@ info_FRA_desc;The fabled 35 LR France...You get accepted in Wallonia and Brittan
 info_FIN_title;HtA Finland Info;x
 info_FIN_desc;See all that light blue pop in Russia? That's accepted. That will obviously put you at odds with Russia though! If you conquer the Capitals of Sweden and Norway, you can get cores and accepted on both. Sweden also can still form Scandinavia however and could make your game a lot harder if you have both gunning for you!;x
 info_HIS_title;HtA Hispania Info;x
-info_HIS_desc;You get accepted over all the expected stuff: Basque, Portuguese, and Catalan, however Aquitania may contest you for Catalonia and they hold Barcelona. Naples/Italy may be your natural ally...however you can get cores and accepted on the Sulphur islands!;x
+info_HIS_desc;You get accepted over all the expected stuff: Basque, Portuguese, Afro Latino, and Catalan, however Aquitania may contest you for Catalonia and they hold Barcelona. Naples/Italy may be your natural ally...however you can get cores and accepted on the Sulphur islands!;x
 inland_claims_title;Our Inland Claims;;;;;;;;;;;x
 inland_claims_desc;Uilscyr has been making plans to go up and claim the far reaches of the tributaries of the Jordrac River. This would bring them uncomfortably close to our territory. We should beat them to the punch, and maybe we'll discover some useful and interesting things in these lands.;;;;;;;;;;x
 integrate_cymru_title;Integrate Cymru;;;;;;;;x
