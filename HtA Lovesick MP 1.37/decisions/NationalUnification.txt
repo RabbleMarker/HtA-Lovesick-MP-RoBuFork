@@ -472,7 +472,7 @@ political_decisions = {
 		
 		effect = {
 			prestige = 10
-			badboy = 3
+			badboy = -3
 			clr_country_flag = crown_from_the_gutter
 			all_core = { add_core = BRC }
 			BRN = {
@@ -482,6 +482,9 @@ political_decisions = {
 				all_core = { add_core = BRC }
 			}
 			change_tag = BRC
+			PRU_570 = { add_core = THIS }
+			BAV_595 = { add_core = THIS }
+			FRA_412 = { add_core = THIS }
 			set_country_flag = secondary_union_formation
 			any_country = {
 				limit = {
@@ -552,13 +555,12 @@ political_decisions = {
 		effect = {
 			clr_country_flag = crown_from_the_gutter
 			prestige = 5
-			badboy = -3
+			badboy = 2
 			all_core = { add_core = SGF }
 			add_accepted_culture = south_german
 			add_accepted_culture = central_german
-			RHI = {
-				all_core = { add_core = THIS }
-			}
+			RHI = { all_core = { add_core = THIS } }
+			PRU_570 = { add_core = THIS }
 			any_owned = {
 				limit = {
 					NOT = { is_core = THIS }

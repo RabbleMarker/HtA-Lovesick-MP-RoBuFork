@@ -57,7 +57,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			year = 1850
+			year = 1844
 		}
 		
 		effect = {
@@ -178,14 +178,9 @@ aquitanian_cringe = {
 		
 		allow = {
 			OR = {
-				AND = {
 				has_country_flag = YESfoodaidAQT
 				ideological_thought = 1
-					}
-				AND = {
-				year = 1838
-				ideological_thought = 1
-				}
+				
 			}
 		}
 		

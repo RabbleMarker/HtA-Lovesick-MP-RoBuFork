@@ -968,12 +968,12 @@
     soldiers = {
         culture = catalan
         religion = catholic
-        size = 5500
+        size = 7500
     }
     farmers = {
         culture = catalan
         religion = catholic
-        size = 53225
+        size = 50225
     }
  craftsmen = {
         culture = catalan
@@ -1036,12 +1036,12 @@
     soldiers = {
         culture = catalan
         religion = catholic
-        size = 1350
+        size = 4350
     }
     farmers = {
         culture = catalan
         religion = catholic
-        size = 48300
+        size = 45300
     }
     aristocrats = {
         culture = catalan

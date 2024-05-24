@@ -109,3 +109,23 @@ free_peoples_huge;Free Huge State;;;;;;;;;;;;;x
 free_peoples_huge_short;Free $STATE$;;;;;;;;;;;;;x
 free_peoples_huge_desc;This CB fixes the warscore value in order to keep warscore values consistent and prevent exploits.;;;;;;;;;;;;;x
 free_peoples_huge_setup;Demand that $RECIPIENT$ secede territory.;;;;;;;;;;;;;x
+demand_concession_strat;Take Strategic Concession;;;;;;;;;;;;;x
+demand_concession_strat_short;Acquire $STATE$;;;;;;;;;;;;;x
+demand_concession_strat_desc;This CB fixes the warscore value in order to keep warscore values consistent and prevent exploits.;;;;;;;;;;;;;x
+demand_concession_strat_setup;Demand that $RECIPIENT$ secede territory.;;;;;;;;;;;;;x
+demand_concession_small;Take Small Concession;;;;;;;;;;;;;x
+demand_concession_small_short;Acquire $STATE$;;;;;;;;;;;;;x
+demand_concession_small_desc;This CB fixes the warscore value in order to keep warscore values consistent and prevent exploits.;;;;;;;;;;;;;x
+demand_concession_small_setup;Demand that $RECIPIENT$ secede territory.;;;;;;;;;;;;;x
+demand_concession_medium;Take Medium Concession;;;;;;;;;;;;;x
+demand_concession_medium_short;Acquire $STATE$;;;;;;;;;;;;;x
+demand_concession_medium_desc;This CB fixes the warscore value in order to keep warscore values consistent and prevent exploits.;;;;;;;;;;;;;x
+demand_concession_medium_setup;Demand that $RECIPIENT$ secede territory.;;;;;;;;;;;;;x
+demand_concession_large;Take Large Concession;;;;;;;;;;;;;x
+demand_concession_large_short;Acquire $STATE$;;;;;;;;;;;;;x
+demand_concession_large_desc;This CB fixes the warscore value in order to keep warscore values consistent and prevent exploits.;;;;;;;;;;;;;x
+demand_concession_large_setup;Demand that $RECIPIENT$ secede territory.;;;;;;;;;;;;;x
+demand_concession_huge;Take Huge Concession;;;;;;;;;;;;;x
+demand_concession_huge_short;Acquire $STATE$;;;;;;;;;;;;;x
+demand_concession_huge_desc;This CB fixes the warscore value in order to keep warscore values consistent and prevent exploits.;;;;;;;;;;;;;x
+demand_concession_huge_setup;Demand that $RECIPIENT$ secede territory.;;;;;;;;;;;;;x

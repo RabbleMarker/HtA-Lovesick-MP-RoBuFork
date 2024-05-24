@@ -1,3 +1,4 @@
+
 NAV = {
 	value = 75
 	level = 4
@@ -203,6 +204,16 @@ army = {
 		home = 464
 	}
 	regiment = {
+		name = "2ona Divisió d'Infanteria"
+		type = infantry
+		home = 467
+	}
+	regiment = {
+		name = "2ona Divisió d'Infanteria"
+		type = infantry
+		home = 608
+	}
+	regiment = {
 		name = "1era Divisió de Cavalleria"
 		type = dragoon
 		home = 498
@@ -210,7 +221,27 @@ army = {
 	regiment = {
 		name = "1era Divisió d'Artilleria"
 		type = artillery
-		home = 501
+		home = 461
+	}
+	regiment = {
+		name = "1era Divisió d'Artilleria"
+		type = artillery
+		home = 461
+	}
+	regiment = {
+		name = "1era Divisió d'Artilleria"
+		type = artillery
+		home = 461
+	}
+	regiment = {
+		name = "1era Divisió d'Artilleria"
+		type = artillery
+		home = 461
+	}
+	regiment = {
+		name = "1era Divisió d'Artilleria"
+		type = artillery
+		home = 608
 	}
 }
 

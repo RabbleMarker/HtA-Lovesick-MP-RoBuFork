@@ -316,6 +316,7 @@ political_decisions = {
 		picture = embrace_boer
 		potential = {
 			has_country_flag = BRA_GER
+			NOT = { has_country_flag = steengooner }
 			NOT = { has_accepted_culture = steenkooler }
 		}
 		
@@ -325,6 +326,7 @@ political_decisions = {
 		
 		effect = {
 			add_accepted_culture = steenkooler
+			set_country_flag = steengooner
 		}
 	}
 # Ebin Austria

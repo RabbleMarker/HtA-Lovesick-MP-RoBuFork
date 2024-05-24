@@ -7,8 +7,8 @@ EVTNAME50001;Eyjafjallajokul Erupts!;x
 EVTDESC50001;The volcano has once again erupted, and this time, the ash plume is enormous! Much of Europe will soon be engulfed. Hopefully they will not suffer too badly.;x
 EVTNAME50002;The peasantry demands their food!;;;;;;;;;;;;;x,,,,,,,
 EVTDESC50002;A large crowd appeared today at the gates of the royal palace in Mauguio. Disgruntled, emaciated peasants from both the city and surrounding farms demanded to be heard. The poor harvests of the past two years took their toll on the people of Aquitània as much as in other parts of Europe, yet Raimond IX continued to host lavish feasts. Incensed, the people demanded that the royal granaries be opened so that the people of Aquitània could eat the food they themselves grew. Upon hearing of the crowd and its demands, Raimond IX decided to…;;;;;;;;;;;;;;;;;;;x",,
-EVTOPTA50002;… dismiss the rabble.;;;;;;;;;;;;;x,,,,,,,
-EVTOPTB50002;… order the distribution of royal food aid.;;;;;;;;;;;;x,,,,,,,
+EVTOPTA50002;… dismiss the rabble (Republican);;;;;;;;;;;;;x,,,,,,,
+EVTOPTB50002;… order the distribution of royal food aid (Monarchist);;;;;;;;;;;;x,,,,,,,
 EVTNAME50003;The Return of the Iles Bleus;;;;;;;;;;;;x,,,,,,,
 EVTDESC50003;Now that we have reincorporated Normandy, we should start reclaim our colonies. The most obvious first target is the Îles Bleus, which Brittany calls Glasenezenn. They took control of our colony when we lost access to the Atlantic in the 17th century, but now we should get back what is rightfully ours. How shall we seek its return?;;;;;;;;;;;;;x,
 EVTOPTA50003;Offer to buy them back.;;;;;;;;;;;;x,,,,,,,

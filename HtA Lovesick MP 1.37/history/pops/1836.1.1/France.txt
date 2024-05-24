@@ -2857,13 +2857,13 @@
     soldiers = {
         culture = aquitanian
         religion = catholic
-        size = 1100
+        size = 4100
     }
 
     farmers = {
         culture = french
         religion = catholic
-        size = 34100
+        size = 31100
     }
 
     clergymen = {
@@ -2913,7 +2913,7 @@
     soldiers = {
         culture = aquitanian
         religion = catholic
-        size = 1100
+        size = 4100
     }
 
     farmers = {
@@ -2925,7 +2925,7 @@
     farmers = {
         culture = french
         religion = catholic
-        size = 24725
+        size = 21725
     }
 
     clergymen = {
@@ -3158,7 +3158,7 @@
     soldiers = {
         culture = aquitanian
         religion = catholic
-        size = 950
+        size = 5950
     }
 
     farmers = {
@@ -3496,7 +3496,7 @@
     soldiers = {
         culture = aquitanian
         religion = catholic
-        size = 1100
+        size = 6100
     }
 
     farmers = {
@@ -3514,7 +3514,7 @@
     labourers = {
         culture = aquitanian
         religion = catholic
-        size = 25000
+        size = 20000
     }
 
     clergymen = {
@@ -3526,7 +3526,7 @@
     artisans = {
         culture = sephardic
         religion = jewish
-        size = 8900
+        size = 4900
     }
 
     clerks = {
@@ -3538,7 +3538,7 @@
     soldiers = {
         culture = sephardic
         religion = jewish
-        size = 95
+        size = 4095
     }
 }
 #Rodez/Rodes (504000/126000 POPS)
@@ -3646,7 +3646,7 @@
     farmers = {
         culture = aquitanian
         religion = catholic
-        size = 22375
+        size = 20375
     }
 
     aristocrats = {
@@ -3670,7 +3670,7 @@
     soldiers = {
         culture = catalan
         religion = catholic
-        size = 1100
+        size = 3100
     }
 
     farmers = {
@@ -3835,7 +3835,7 @@
     soldiers = {
         culture = aquitanian
         religion = catholic
-        size = 1100
+        size = 4100
     }
 
     farmers = {
@@ -3847,7 +3847,7 @@
     farmers = {
         culture = aquitanian
         religion = catholic
-        size = 22400
+        size = 20400
     }
 
     clergymen = {
@@ -3859,7 +3859,7 @@
     artisans = {
         culture = sephardic
         religion = jewish
-        size = 3900
+        size = 2900
     }
 }
 #Avignon/Avinhon (243600/60900 POPS)
@@ -4055,7 +4055,7 @@
     soldiers = {
         culture = north_italian
         religion = catholic
-        size = 1100
+        size = 6100
     }
 
     farmers = {
@@ -4073,7 +4073,7 @@
     farmers = {
         culture = aquitanian
         religion = catholic
-        size = 39825
+        size = 35825
     }
 
     clergymen = {
