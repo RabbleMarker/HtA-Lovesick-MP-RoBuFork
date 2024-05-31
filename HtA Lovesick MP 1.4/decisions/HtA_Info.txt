@@ -1,0 +1,136 @@
+#These are decisions which just contain info for the human player about their countries. Perhaps will be expanded to include the backstory/history of the country in the future.
+political_decisions = {
+
+	info_german = {
+		picture = HtALion1
+		potential = {
+			ai = no
+			NOT = { year = 1838 }
+			OR = {
+				primary_culture = north_german
+				primary_culture = central_german
+				primary_culture = south_german
+			}
+			NOT = { tag = AUS }
+		}
+		allow = { }
+		effect = { }
+	}
+
+	info_MLT = { #Basically just tells them not to play Malta lol
+		picture = HtALion1
+		potential = {
+			ai = no
+			tag = MLT
+		}
+		allow =  { }
+		effect = { }
+	}
+	info_PDN = {
+		picture = HtALion1
+		potential = {
+			ai = no
+			OR = {
+				tag = LOM
+				tag = GEN
+				tag = MOD
+				tag = VEN
+			}
+		}
+		allow = { }
+		effect = { }
+	}
+	info_POL = {
+		picture = HtALion1
+		potential = {
+			ai = no
+			OR = {
+				tag = BOH
+				tag = POL
+			}
+			NOT = { year = 1838 }
+		}
+		allow =  { }
+		effect = { }
+	}
+	info_RUS = {
+		picture = HtALion1
+		potential = {
+			ai = no
+			tag = RUS
+			NOT = { year = 1838 }
+		}
+		allow = { }
+		effect = { }
+	}
+	info_SML = {
+		picture = HtALion1
+		potential = {
+			ai = no
+			tag = SML
+			NOT = { year = 1838 }
+		}
+		allow =  { }
+		effect = { }
+	}
+	info_FIN = {
+		picture = HtALion1
+		potential = {
+			ai = no
+			tag = FIN
+			NOT = { year = 1838 }
+		}
+		allow =  { }
+		effect = { }
+	}
+	info_ARM = {
+		picture = HtALion1
+		potential = {
+			ai = no
+			tag = ARM
+			NOT = { year = 1838 }
+		}
+		allow =  { }
+		effect = { }
+	}
+	info_AQT = {
+		picture = HtALion1
+		potential = {
+			ai = no
+			tag = AQT
+			NOT = { year = 1838 }
+		}
+		allow =  { }
+		effect = { }
+	}
+	info_FRA = {
+		picture = HtALion1
+		potential = {
+			ai = no
+			tag = FRA
+			NOT = { year = 1838 }
+		}
+		allow =  { }
+		effect = { }
+	}
+	info_HIS = {
+		picture = HtALion1
+		potential = {
+			ai = no
+			tag = HIS
+			NOT = { year = 1838 }
+		}
+		allow =  { }
+		effect = { }
+	}
+	info_BYZ = {
+		picture = HtALion1
+		potential = {
+			ai = no
+			tag = BYZ
+			NOT = { year = 1838 }
+		}
+		allow =  { }
+		effect = { }
+	}
+}
