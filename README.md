@@ -33,6 +33,7 @@ General Changes:
 Changes by Country:
 
 Russia & Smolensk:
+
 	* Added a Debuff during Civil War which makes it more painful even if you fight AI. Goes away after the war ends and you form.
 	* Fixed issues with Smolensk not getting any of the decisions or events Russia should.
 	* Rebalanced Ugrian Pop spread so there's about the same amount of them as Tartar
@@ -44,26 +45,38 @@ Russia & Smolensk:
 	* Siberia pops buffed up and now once Siberia is fully colonized Russia will get a 'Siberian Breadbasket' which extends to Perm and Samara.
 
 Germany:
+
 	* Each contender now has their own paths and split the vanilla PUIR decisions between them (Brandenburg gets Prussian focused ones like von molt, Brunswick gets Ruhr boom, Bavaria get some Austrian and South German focused ones).
 	* Brandenburg is now the only contender who can get Silesian and Prusai accepted, they also get Ashkenazi accepted (this may be adjusted if it's too strong).
 	* Brunswick can accept Steenkooler (Ebin Frisian/German Sudafrika) and take the SAF related decisions.
 	* Bavaria now starts with Romansh accepted (majority in Helvetica) and if they form Germany they can buff the LR of Helvetica and Austria to 38. They also can accept Slovene.
 	* Reworked how NGF and SGF works (can form NGF at Ideological thought, SGF at State n Gov but can do it quicker if NGF already exists, can now form GER, SGF, and NGF by puppeting alone.
 France:
+
 	* Gets a decision to reclaim Gidan and core and accept Afro Antillean
 	* Industry heavily buffed
+ 
 Aquitania:
+
 	* Added the actual point of the entire mod: The Aquitanian Revoltion. It's just a minor starting decision that allows you to go Republican or keep the Monarchy. Their parties are buffed to make being a Republic not that bad and they also get some further decisions. If you go Republic you lose your colonies however.
 	* They can get Romansh cored and accepted as well (is now all of Helvetica)
+ 
 Byzantium & Armenia:
+
 	* Reworked the Anatole Baby Boom, it's now a triggered decision buff instead of an event that applies to a smaller part, but lasts longer
 	* Reworked the Rum decisions, they now no longer get Greek or Georgian, but they can get Tartar instead.
 	* Byzantine gets Georgian and can also now abandon their Roman ambitions and take an alternative path, reusing decisions from the vanilla mod.
+ 
 Nanyue:
+
 	* Now locked into doing their Indochina path, and no longer a retarded event chain.
+ 
 Aengland:
+
 	* Can get Danish accepted now
+ 
 Celtic Federation:
+
 	* Can get Picard and Breton.
 
 
