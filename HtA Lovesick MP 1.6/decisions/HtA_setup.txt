@@ -1,0 +1,1 @@
+# Decision to assign continent flags to countries for certain events

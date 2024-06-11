@@ -1,0 +1,158 @@
+country_event = {
+	id = 40404040
+	title = "Non-Accepted Bureaucrats Decision (10 year cooldown)"
+	desc = "This decision is intended to convert non-accepted Bureaucrats into Artisans, in both states and colonies, so they stop getting fat off of state admin funding."
+	picture = "Opiumwar"
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "Force them into Artisans!"
+		any_owned = {
+			any_pop = {
+				limit = { 
+					AND = {
+						is_primary_culture = no
+						is_accepted_culture = no
+					}
+					type = bureaucrats
+				}
+				pop_type = artisans
+			}
+				
+		}
+		
+	}
+}
+country_event = {
+	id = 40404041
+	title = "40404041"
+	desc = "admin buff"
+	picture = "xinhai"
+	
+	trigger = {
+		tag = QIN
+		NOT = { has_country_flag = admin_buff }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		name = "Guh"
+		set_country_flag = admin_buff
+		any_country = {	
+			limit = {
+				NOT = {
+				OR = {	
+					tag = FRA
+					tag = SML
+					tag = RUS
+					tag = BOH
+					tag = BRA
+					tag = BRN
+					tag = BAV
+					tag = AEN
+					tag = HIS
+					tag = ARM
+						}
+					}
+				}
+			any_pop = {
+				limit = {
+					type = bureaucrats
+				}
+					reduce_pop = 2
+				}
+			}
+		}
+	
+	option = {
+		name = "Thanks!"
+	}
+}
+
+
+country_event = {
+	id = 40404042
+	title = "40404041"
+	desc = "admin buff"
+	picture = "xinhai"
+	
+	trigger = {
+		tag = QIN
+		NOT = { has_country_flag = minor_admin_buff }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		name = "Cuh"
+		set_country_flag = minor_admin_buff
+		any_country = {	
+			limit = {
+				OR = {	
+					tag = BOH
+					tag = BRA
+					tag = BRN
+					tag = BAV
+					tag = AEN
+					tag = FRA
+					}
+				}
+			any_pop = {
+				limit = {
+					type = bureaucrats
+				}
+					reduce_pop = 1.4
+				}
+			}
+		}
+	
+	option = {
+		name = "Thanks!"
+	}
+}
+
+country_event = {
+	id = 40404024
+	title = "40404044"
+	desc = "admin buff"
+	picture = "xinhai"
+	
+	trigger = {
+		tag = GHO
+		NOT = { has_country_flag = big_admin_buff }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		name = "Wuh"
+		set_country_flag = big_admin_buff
+		any_country = {	
+			limit = {
+				OR = {	
+				tag = HIS
+				tag = ARM
+					}
+				}
+			any_pop = {
+				limit = {
+					type = bureaucrats
+				}
+					reduce_pop = 3
+				}
+			}
+		}
+	
+	option = {
+		name = "Thanks!"
+	}
+}

@@ -1,0 +1,85 @@
+#Events 50024-50050 reserved for Italy and Daufinat (which are located in HtA_DAU). Lower down in the file we've got IDs 51851-51899 which were introduced in 0.37
+
+#####################Start events from 0.37#####################################
+# 51851-51899 - Mostly for NPL, but some for PDN
+
+#Caserta Education Deshawnee choice
+country_event = {
+	id = 51852
+	title = "EVTNAME51852"
+	desc = "EVTDESC51852"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NPL
+		763 = { owned_by = THIS }
+		OR = {
+			has_country_flag = caserta_education_deshawnee_made
+			year = 1837
+		}
+		NOT = {
+			has_country_flag = ed_deshawnee_neapolitan
+			has_country_flag = ed_deshawnee_local
+		}
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	option = {
+		name = "Neapolitan, naturally."
+		set_country_flag = ed_deshawnee_neapolitan
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 100
+				has_global_flag = railroading_on
+			}
+		}
+	}
+	option = {
+		name = "Local speech makes the most sense."
+		set_country_flag = ed_deshawnee_local
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				has_global_flag = railroading_on
+			}
+		}
+	}
+}
+		
+
+#Premiere of La Traviata
+country_event = {
+	id = 51895
+	title = "EVTNAME51895"
+	desc = "EVTDESC51895"
+	picture = "la_traviata"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		729 = { owned_by = THIS }
+		year = 1853
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "A spectacular performance!"
+		prestige = 3
+		729 = {
+			any_pop = {
+				limit = {
+					strata = rich
+				}
+				consciousness = 0.1
+				militancy = -0.1
+			}
+		}
+	}
+}
