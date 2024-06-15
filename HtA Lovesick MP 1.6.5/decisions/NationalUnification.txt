@@ -251,8 +251,16 @@ political_decisions = {
 			war = no
 			ITA = {
 				all_core = {
+					OR = {
 						owned_by = THIS
-						war = no
+						owner = {
+							in_sphere = THIS
+							OR = {
+								is_vassal = no
+								vassal_of = THIS
+							}
+							war = no
+						}
 					}
 				}
 			}
