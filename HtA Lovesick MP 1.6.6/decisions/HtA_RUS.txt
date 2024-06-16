@@ -27,7 +27,7 @@ political_decisions = {
 					}
 					add_province_modifier = {
 						name = colonial_recruitment
-						duration = 7000
+						duration = 4500
 					}
 					remove_core = SIB
 				}
