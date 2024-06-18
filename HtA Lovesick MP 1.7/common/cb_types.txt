@@ -212,7 +212,7 @@ conquest = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		total_pops = 400000
-		this = { NOT = { badboy = 1 } }
+		#this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
@@ -352,7 +352,7 @@ add_to_sphere = {
 
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		THIS = {
 			NOT = { has_country_flag = conquerable_1865 }
 		}
@@ -417,7 +417,7 @@ take_from_sphere = {
 
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -713,7 +713,7 @@ demand_reperations = {
 	
 	can_use = {
 	NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-	this = { NOT = { badboy = 2 } }
+	#this = { NOT = { badboy = 2 } }
 	NOT = { has_country_modifier = no_more_war_reperations }
 	NOT = { 
 			OR = { 
@@ -811,7 +811,7 @@ liberate_country = {
 	
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		THIS = {
 			NOT = { has_country_flag = conquerable_1865 }
 		}
@@ -930,7 +930,7 @@ liberate_country_midgame = {
 	
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		THIS = {
 			NOT = { has_country_flag = conquerable_1865 }
 		}
@@ -1049,7 +1049,7 @@ liberate_country_late = {
 	
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		THIS = {
 			NOT = { has_country_flag = conquerable_1865 }
 		}
@@ -1168,7 +1168,7 @@ liberate_country_verylate = {
 	
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		THIS = {
 			NOT = { has_country_flag = conquerable_1865 }
 		}
@@ -1280,7 +1280,7 @@ dismantle_forts = {
 	
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1346,7 +1346,7 @@ release_puppet = {
 
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		num_of_vassals_no_substates = 1
 		THIS = {
 			NOT = { has_country_flag = conquerable_1865 }
@@ -1401,7 +1401,7 @@ make_puppet = {
 	
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1543,7 +1543,7 @@ humiliate = {
 
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
 		}
@@ -2194,7 +2194,7 @@ conquest_low = {
 	
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		NOT = {	total_pops = 400000 }
 		NOT = { 
 			OR = { 
@@ -2290,7 +2290,7 @@ take_capital = {
 
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
 		}
@@ -2372,7 +2372,7 @@ acquire_treaty_port = {
 	can_use = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		#this = { NOT = { badboy = 1 } }
 		THIS = {
 			NOT = { has_country_flag = conquerable_1865 }
 		}
@@ -2596,7 +2596,7 @@ make_puppet_small = {
 	
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		NOT = { is_our_vassal = THIS }
 		is_greater_power = no
 		is_vassal = no
@@ -2667,7 +2667,7 @@ make_puppet_large = {
 	
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		OR = {
 			total_pops = 3000000
 			number_of_states = 10
@@ -3373,7 +3373,7 @@ acquire_state_strat = {
 		NOT = { tag = GHO }
 		NOT = { tag = QIN }
 		this = { NOT = { tag = QIN } }
-		this = { NOT = { badboy = 1 } }
+		#this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3476,7 +3476,7 @@ acquire_state_small = {
 		NOT = { tag = GHO }
 		NOT = { tag = QIN }
 		this = { NOT = { tag = QIN } }
-		this = { NOT = { badboy = 1 } }
+		#this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3580,7 +3580,7 @@ acquire_state_medium = {
 		NOT = { tag = GHO }
 		NOT = { tag = QIN }
 		this = { NOT = { tag = QIN } }
-		this = { NOT = { badboy = 1 } }
+		#this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3684,7 +3684,7 @@ acquire_state_large = {
 		NOT = { tag = GHO }
 		NOT = { tag = QIN }
 		this = { NOT = { tag = QIN } }
-		this = { NOT = { badboy = 1 } }
+		#this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3788,7 +3788,7 @@ acquire_state_huge = {
 		NOT = { tag = GHO }
 		NOT = { tag = QIN }
 		this = { NOT = { tag = QIN } }
-		this = { NOT = { badboy = 1 } }
+		#this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3888,7 +3888,7 @@ free_peoples_strat_early = {
 
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-	    this = { NOT = { badboy = 2 } }
+	    #this = { NOT = { badboy = 2 } }
 
 		AND = {
 		   NOT = { year = 1870 }
@@ -3968,7 +3968,7 @@ free_peoples_small_early = {
 
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-this = { NOT = { badboy = 2 } }
+#this = { NOT = { badboy = 2 } }
 		AND = {
 		   NOT = { year = 1870 }
 		}
@@ -4047,7 +4047,7 @@ free_peoples_medium_early = {
 
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-this = { NOT = { badboy = 2 } }
+#this = { NOT = { badboy = 2 } }
 		AND = {
 		   NOT = { year = 1870 }
 		}
@@ -4126,7 +4126,7 @@ free_peoples_large_early = {
 
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-this = { NOT = { badboy = 2 } }
+#this = { NOT = { badboy = 2 } }
 		AND = {
 		   NOT = { year = 1870 }
 		}
@@ -4205,7 +4205,7 @@ free_peoples_huge_early = {
 
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-this = { NOT = { badboy = 2 } }
+#this = { NOT = { badboy = 2 } }
 		AND = {
 		   NOT = { year = 1870 }
 		}
@@ -4284,7 +4284,7 @@ free_peoples_strat = {
 
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-this = { NOT = { badboy = 2 } }
+#this = { NOT = { badboy = 2 } }
 		year = 1870
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
@@ -4361,7 +4361,7 @@ free_peoples_small = {
 
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-this = { NOT = { badboy = 2 } }
+#this = { NOT = { badboy = 2 } }
 		year = 1870
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
@@ -4438,7 +4438,7 @@ free_peoples_medium = {
 
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-this = { NOT = { badboy = 2 } }
+#this = { NOT = { badboy = 2 } }
 		year = 1870
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
@@ -4515,7 +4515,7 @@ free_peoples_large = {
 
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-this = { NOT = { badboy = 2 } }
+#this = { NOT = { badboy = 2 } }
 		year = 1870
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
@@ -4592,7 +4592,7 @@ free_peoples_huge = {
 
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = STR tag = SMA tag = MED tag = LRG tag = HUG }
-this = { NOT = { badboy = 2 } }
+#this = { NOT = { badboy = 2 } }
 		year = 1870
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
@@ -4673,7 +4673,7 @@ demand_concession_strat = {
 	can_use = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4700,7 +4700,7 @@ demand_concession_strat = {
 			is_core = STR
 			is_colonial = no
 		}
-		not = { any_owned_province = { is_capital = yes } }
+		#not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
@@ -4743,7 +4743,7 @@ demand_concession_small = {
 	can_use = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4770,7 +4770,7 @@ demand_concession_small = {
 			is_core = SMA
 			is_colonial = no
 		}
-		not = { any_owned_province = { is_capital = yes } }
+		#not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
@@ -4813,7 +4813,7 @@ demand_concession_medium = {
 	can_use = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4840,7 +4840,7 @@ demand_concession_medium = {
 			is_core = MED
 			is_colonial = no
 		}
-		not = { any_owned_province = { is_capital = yes } }
+		#not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
@@ -4883,7 +4883,7 @@ demand_concession_large = {
 	can_use = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4910,7 +4910,7 @@ demand_concession_large = {
 			is_core = LRG
 			is_colonial = no
 		}
-		not = { any_owned_province = { is_capital = yes } }
+		#not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
@@ -4953,7 +4953,7 @@ demand_concession_huge = {
 	can_use = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4980,7 +4980,7 @@ demand_concession_huge = {
 			is_core = HUG
 			is_colonial = no
 		}
-		not = { any_owned_province = { is_capital = yes } }
+		#not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
@@ -5022,7 +5022,7 @@ place_in_the_sun_small = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		civilized = yes
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -5099,7 +5099,7 @@ place_in_the_sun_medium = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		civilized = yes
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -5176,7 +5176,7 @@ place_in_the_sun_large = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		civilized = yes
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -5253,7 +5253,7 @@ place_in_the_sun_huge = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		civilized = yes
-		this = { NOT = { badboy = 2 } }
+		#this = { NOT = { badboy = 2 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality

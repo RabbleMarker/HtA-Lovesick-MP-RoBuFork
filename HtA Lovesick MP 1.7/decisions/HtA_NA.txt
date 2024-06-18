@@ -50,6 +50,7 @@ political_decisions = {
 			num_of_ports = 1
 			is_vassal = no
 			civilized = yes
+			ai = no
 		}
 		
 		allow = {
@@ -496,8 +497,7 @@ invade_the_mexicans_scw = {
 			NOT = { has_country_flag = north_invaded_mex }
 		}
 		allow = {
-			USA_138 = { owned_by = THIS }
-			MEX_2142 = { owned_by = THIS }
+			GNC = { all_core = { owned_by = THIS } }
 		}
 		effect = {
 			badboy = 15
@@ -674,10 +674,10 @@ invade_the_mexicans_scw = {
 		picture = tsar_coronation
 		potential = {
 			tag = MEX
-			has_global_flag = aquitanian_revolution
+			NOT = {	has_country_flag = meikan_heirs }
 		}
 		allow = {
-			NOT = {	has_country_flag = meikan_heirs }
+			has_global_flag = aquitanian_revolution
 		}
 		effect = {
 			government = hms_government

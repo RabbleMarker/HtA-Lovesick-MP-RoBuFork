@@ -41,4 +41,7 @@ upper_house = {
 }
 
 set_country_flag = post_colonial_country
+set_country_flag = new_world_nation
+set_country_flag = south_american_immigrant_nation
+
 

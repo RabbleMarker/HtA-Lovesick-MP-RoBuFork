@@ -106,7 +106,7 @@ vassal_nation = {
 }
 bad_badboy = {
 		trigger = {
-			badboy = 1.6
+			badboy = 1.3
 		}
 		global_immigrant_attract = -1.5
 		land_organisation = -0.25
@@ -117,6 +117,7 @@ bad_badboy = {
 		tariff_efficiency_modifier = -0.1
 		tax_efficiency = -0.5
 		research_points_modifier = -1
+		icon = 2
 	}
 hormuz_strait = {
 		trigger = {
@@ -169,32 +170,32 @@ own_panama_canal = {
 
 DVG_badboy_1 = { 
 	trigger = {
-		NOT = { year = 1860 }
+		NOT = { year = 1865 }
 		is_greater_power = yes 
 	}
-	badboy = -0.15
+	badboy = -0.175
 	icon = 1
 
 }
 
 DVG_badboy_2 = { 
 	trigger = {
-		NOT = { year = 1860 }
+		NOT = { year = 1865 }
 		is_greater_power = no
 		is_secondary_power = yes
 	}
-	badboy = -0.075
+	badboy = -0.01
 	icon = 1
 
 }
 
 DVG_badboy_3 = { 
 	trigger = {
-		NOT = { year = 1860 }
+		NOT = { year = 1865 }
 		is_greater_power = no
 		is_secondary_power = no
 	}
-	badboy = -0.05
+	badboy = -0.075
 	icon = 1
 
 }
