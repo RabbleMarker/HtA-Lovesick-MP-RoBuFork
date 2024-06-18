@@ -8,6 +8,7 @@ political_decisions = {
 		OR = {
 			tag = NET
 			has_country_flag = BRA_GER
+			tag = SAF
         	}
 	}
 
