@@ -1,7 +1,0 @@
-owner = MGH
-controller = MGH
-add_core = MGH
-add_core = TUN
-trade_goods = wool
-life_rating = 35
-

@@ -1,0 +1,23 @@
+name = "4th Anatolian War"
+
+1835.3.12 = {
+	add_attacker = ARM
+	add_defender = BYZ
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = humiliate
+		actor = ARM
+		receiver = BYZ
+	}
+
+}
+
+1863.11.30 = {
+	rem_attacker = ARM
+	rem_defender = BYZ
+}

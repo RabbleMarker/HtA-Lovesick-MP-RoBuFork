@@ -1,6 +1,0 @@
-owner = NPL
-controller = NPL
-add_core = NPL
-trade_goods = coal
-life_rating = 35
-

@@ -1,9 +1,0 @@
-owner = MGH
-controller = MGH
-add_core = MGH
-add_core = MOR
-#ALD
-trade_goods = coal
-life_rating = 35
-
-

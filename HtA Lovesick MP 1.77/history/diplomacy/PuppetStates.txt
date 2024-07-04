@@ -1,0 +1,23 @@
+# Japanese-Daimyos
+
+substate = {
+	first = JAP
+	second = CHO
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = JAP
+	second = TOS
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = NPL
+	second = PAP
+	start_date = 1835.1.1
+	end_date = 1895.5.17 #Treaty of Shimonoseki
+}
+
+
+

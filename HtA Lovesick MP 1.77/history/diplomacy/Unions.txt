@@ -1,0 +1,6 @@
+union = {
+	first = AQT
+	second = DAU
+	start_date = 1814.10.12
+	end_date = 1837.6.20
+}

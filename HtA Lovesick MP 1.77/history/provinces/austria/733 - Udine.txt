@@ -1,0 +1,7 @@
+owner = PDN
+controller = PDN
+add_core = PDN
+trade_goods = fish
+life_rating = 35
+
+

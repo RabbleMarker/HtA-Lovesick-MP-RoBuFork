@@ -1,0 +1,223 @@
+political_decisions = {
+	unification_with_catalonia = {
+		picture = form_union_nation
+		potential = {
+			tag = AQT
+			NOT = { has_country_flag = catalans_embraced }
+		}		
+		allow = {
+			war = no
+			state_n_government = 1
+			CAT = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+							OR = {
+								is_vassal = no
+								vassal_of = THIS
+							}
+							war = no
+							is_greater_power = no
+							is_secondary_power = no
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			badboy = 5
+			set_country_flag = catalans_embraced
+			inherit = CAT
+			CAT = {
+				all_core = { add_core = AQT } }
+			add_accepted_culture = catalan
+			add_accepted_culture = basque
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				badboy = 0.8
+			}
+		}
+	}
+	
+	garda_civica = {
+		picture = military_parade
+		potential = {
+			tag = AQT
+			has_country_flag = revolution_in_blood
+			NOT = { has_country_flag = garda_civica }
+		}
+		
+		allow = {
+			year = 1848
+			OR = {
+				average_militancy = 4
+				average_consciousness = 4
+			}
+		}
+		
+		effect = {
+			prestige = 1
+			add_country_modifier = {
+				name = garda_civica
+				duration = -1
+			}
+			set_country_flag = garda_civica
+		}
+	}
+	
+	cisalpines_are_aquitanian = {
+		picture = PoBridge
+		potential = {
+			tag = AQT
+			NOT = { accepted_culture = north_italian }
+		}
+		
+		allow = {
+			nationalism_n_imperialism = 1
+			OR = {
+				owns = 720 #Turin
+				owns = 724 #Genoa
+				owns = 726 #Milan
+				owns = 744 #Florence
+			}
+		}
+		
+		effect = {
+			prestige = 2
+			add_accepted_culture = north_italian
+		}
+	}
+	romansh_are_aquitanian = {
+		picture = embrace_minority
+		potential = {
+			tag = AQT
+			NOT = { accepted_culture = romansh }
+		}
+		
+		allow = {
+			nationalism_n_imperialism = 1
+			SWI = {all_core =  {owned_by = THIS}}
+		}
+		
+		effect = {
+			prestige = 2
+			add_accepted_culture = romansh
+			SWI = {all_core =  {add_core = THIS}}
+		}
+	}
+
+
+	aquitanian_zased = {
+		picture = military_parade
+		potential = {
+			tag = AQT
+			has_country_flag = RIP_raimondVIII
+			has_country_flag = iceland_famine
+			NOT = {
+				OR = {
+			has_country_flag = revolution_in_blood
+			has_country_flag = revolution_cucked
+			 		}
+						}
+		}
+		
+		allow = {
+			OR = {
+				has_country_flag = NOfoodaidAQT
+				year = 1838
+			}
+		}
+		
+		effect = {
+			199 = { secede_province = MRG remove_core = AQT add_core = MRG }
+			200 = { secede_province = MRG remove_core = AQT add_core = MRG }
+			2414 = { secede_province = USR remove_core = AQT add_core = USR }
+			2415 = { secede_province = USR remove_core = AQT add_core = USR }
+			2225 = { secede_province = FRA remove_core = AQT add_core = FRA }
+			2227 = { secede_province = FRA remove_core = AQT add_core = FRA }
+			2230 = { secede_province = FRA remove_core = AQT add_core = FRA }
+			remove_country_modifier = countrywide_famine
+			any_owned = { remove_province_modifier = countrywide_famine_LR }
+			country_event = 50221
+		}
+	}
+
+aquitanian_cringe = {
+		picture = negotiations
+		potential = {
+			tag = AQT
+			has_country_flag = RIP_raimondVIII
+			has_country_flag = iceland_famine
+			NOT = {
+				OR = {
+				has_country_flag = revolution_in_blood
+				has_country_flag = revolution_cucked
+			 		}
+				}
+		}
+		
+		allow = {
+			OR = {
+				has_country_flag = YESfoodaidAQT
+				ideological_thought = 1
+				
+			}
+		}
+		
+		effect = {
+			remove_country_modifier = countrywide_famine
+			any_owned = { remove_province_modifier = countrywide_famine_LR }
+			set_country_flag = revolution_cucked
+			country_event = 50224
+		}
+	}
+
+	claim_the_med_islands = {
+		potential = {
+			tag = AQT
+			NOT = { has_country_flag = med_islands_claimed }
+		}
+		allow = {
+			SIC = { all_core = { owned_by = THIS } }
+			SRD = { all_core = { owned_by = THIS } }
+			CRS = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			set_country_flag = med_islands_claimed
+			SIC = { all_core = { add_core = HIS } }
+			SRD = { all_core = { add_core = HIS } }
+			CRS = { all_core = { add_core = HIS } }
+			add_accepted_culture = sicilian
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+# Integrate the French
+#	integrate_the_french = {
+#		potential = {
+#			tag = AQT
+#			NOT = { has_country_flag = fra_accepted }
+#		}		
+#		allow = {
+#			year = 1840
+#			owns = 428
+#			owns = 440
+#		}		
+#		effect = {
+#			FRA = { all_core = { add_core = THIS } }
+#			BRT = { all_core = { add_core = THIS } }
+#			add_accepted_culture = french
+#			add_accepted_culture = breton
+#			set_country_flag = fra_accepted
+#		}
+#	}
+}

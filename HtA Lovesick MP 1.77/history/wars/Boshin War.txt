@@ -1,0 +1,30 @@
+name = "Boshin War"
+
+1835.12.31 = {
+	add_attacker = TKG
+	add_attacker = AIN
+	add_defender = JAP
+	add_defender = CHO
+	add_defender = TOS
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = civil_war
+		actor = TKG
+		receiver = JAP
+	}
+
+	war_goal = {
+		casus_belli = civil_war
+		actor = JAP
+		receiver = TKG
+	}
+}
+1999.6.6 = {
+	rem_attacker = TKG
+	rem_defender = JAP
+}
