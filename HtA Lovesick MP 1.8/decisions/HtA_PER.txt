@@ -1,0 +1,169 @@
+political_decisions = {	
+	establish_the_dar_al_funun = {
+		potential = {
+			tag = PER
+			NOT = { has_country_flag = dar_al_funun_built }
+		}
+		allow = {
+			literacy = 0.15
+		}
+		effect = {
+			years_of_research = 0.5
+			any_pop = { consciousness = 0.5 }
+			set_country_flag = dar_al_funun_built
+			add_country_modifier = {
+				name = dar_al_funun
+				duration = -1
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						civilized = no
+						education_reform = no_education_reform
+					}
+				}
+				owner = {
+					economic_reform = yes_education_reform
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberal
+							factor = 0.5
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}
+	}
+
+	claim_greater_persia = {
+		potential = {
+			tag = PER
+			NOT = { has_country_flag = claim_greater_persia }
+		}
+
+		allow = {
+			war = no
+			is_vassal = no
+			prestige = 25
+		}
+
+		effect = {
+			badboy = 4
+			prestige = 10
+			set_country_flag = claim_greater_persia
+			any_pop = {
+				dominant_issue = {
+					factor = 0.15
+					value = jingoism
+				}
+				consciousness = 1
+			}
+			KAL_1221 = {
+				add_core = PER
+			}
+			AFG_1214 = {
+				add_core = PER
+			}
+			PER_1112 = {
+				add_core = PER
+			}
+			RUS_1102 = {
+				add_core = PER
+			}
+			add_accepted_culture = azerbaijani	
+			add_accepted_culture = kurdish	
+			add_accepted_culture = mashriqi
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				badboy = 0.50
+			}		
+		}		
+	}		
+	claim_pashtun_regions = {
+		picture = claim_greater_persia
+		potential = {
+			tag = PER
+			NOT = { has_country_flag = claim_pashtun_regions }
+			has_country_flag = claim_greater_persia
+		}
+
+		allow = {
+			AFG_1209 = {
+				owned_by = PER
+			}
+			AFG_1214 = {
+				owned_by = PER
+			}
+			KOK_1210 = {
+				owned_by = PER
+			}
+			civilized = yes
+		}
+
+		effect = {
+			badboy = 5
+			prestige = 20
+			set_country_flag = claim_pashtun_regions
+			add_accepted_culture = pashtun		
+			AFG_1209 = {
+				add_core = PER
+			}
+			KOK_1210 = {
+				add_core = PER
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				badboy = 0.20
+			}		
+		}		
+	}
+	protect_armenia = {
+		picture = form_transcaucasia
+		potential = {
+			tag = PER
+			NOT = { has_country_flag = protect_armenia }
+			has_global_flag = persia_armenian
+			civilized = yes
+		}
+
+		allow = {
+			war = no
+			is_vassal = no
+			revolution_n_counterrevolution = 1
+			NOT = {
+				OR = {
+					ARM = {	all_core = { owned_by = ARM } }
+					RUM = {	all_core = { owned_by = RUM } }
+					}
+			}
+		}
+
+		effect = {
+			badboy = 10			
+			prestige = 10
+			set_country_flag = protect_armenia	
+			add_accepted_culture = armenian
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				badboy = 1
+			}		
+		}
+	}
+}
