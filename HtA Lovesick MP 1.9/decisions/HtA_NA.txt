@@ -356,6 +356,27 @@ political_decisions = {
 		}
 	}
 
+	vest_peace = { 
+		picture = manifest_destiny
+		potential = {
+			tag = NEU
+			NOT = { has_country_flag = vest_peace }
+			}
+
+		allow = {
+			war = no
+			SHC = { all_core = { owned_by = THIS } }
+		}
+
+		effect = {
+			set_country_flag = vest_peace
+			prestige = 15
+			remove_country_modifier = american_bloodbath 
+			add_country_modifier =  { name = the_homestead_act_mexico duration = -1 }
+		}
+
+	}
+
 	
 	##### Native Nations Decisions #########
 	refute_westerners_SHC = {
