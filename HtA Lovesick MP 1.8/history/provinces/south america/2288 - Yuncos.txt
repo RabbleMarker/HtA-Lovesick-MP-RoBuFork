@@ -1,5 +1,0 @@
-add_core = HOY
-trade_goods = wool
-life_rating = 20
-colonial = 1
-
