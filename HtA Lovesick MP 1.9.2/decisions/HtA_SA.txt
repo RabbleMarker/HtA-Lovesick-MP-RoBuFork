@@ -307,4 +307,20 @@ liberate_afro_amerigans = {
 			}
 		}
 	}
+	
+	SAF_homestead = {
+		picture = begin_cultuurstelsel
+		potential = {
+				tag = SAF
+				NOT = { has_country_flag = SAF_homestead }
+			}
+			allow = {
+				year = 1855
+				SAF = { all_core = { owned_by = SAF } }
+			}
+			effect = {
+				set_country_flag = SAF_homestead
+				add_country_modifier =  { name = the_homestead_act_mell duration = -1 }
+			}
+		}
 }
