@@ -1,8 +1,8 @@
 nv_order = {
 	org_regain = 0.1
 	leadership_modifier = 1
-	land_unit_start_experience = 2 #5
-	naval_unit_start_experience = 2
+	land_unit_start_experience = 5 #5
+	naval_unit_start_experience = 5
 	army_tech_research_bonus = 0.05
 }
 
