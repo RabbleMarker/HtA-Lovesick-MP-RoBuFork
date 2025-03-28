@@ -1016,7 +1016,7 @@ emigration_chance =
 	}
 #If pop group is in a colony, then -2% chance to emigrate.	
 	modifier = {
-		factor = -10000
+		factor = -2
 		state_scope = { is_colonial = yes }
 	}
 	
