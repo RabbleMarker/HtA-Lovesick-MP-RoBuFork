@@ -7,7 +7,7 @@ nv_order = {
 }
 
 nv_liberty = {
-	global_immigrant_attract = 0.15
+	global_immigrant_attract = 0.25
 	political_reform_desire = 0.3
 	social_reform_desire = 0.3
 	commerce_tech_research_bonus = 0.05
@@ -36,14 +36,14 @@ nv_tradition = {
 
 nv_productivity = {
 	factory_input = -0.05
-	factory_output = 0.15 #0.25
+	factory_output = 0.25 #0.25
 	factory_throughput = 0.05
 	commerce_tech_research_bonus = 0.05
 	industry_tech_research_bonus = 0.05
 }
 
 nv_education = {
-	education_efficiency_modifier = 0.3
+	education_efficiency_modifier = 0.4
 	culture_tech_research_bonus = 0.05
 }
 
