@@ -1,5 +1,28 @@
-# HtA-Lovesick-MP
+# HtA-Lovesick-MP, Forked and modified for the Map Forge Sunday game
+**Changes Done or Planned to be done:**
 
+Byzantium: Make the Crimea decision a bit more incentivising by giving Caucasian minor accepted. Give Russia Caucasian minor accepted too to compensate.
+
+Persia: After Persia has completed their 2nd decision for incorporating the Pashtun give them one more decision that for 12.5 infamy they get cores on the Sikh Empire and Sindh for the *gateway into India*. 
+Total core are states of Punjab, Kashmir, and Sindh. 
+
+Margaita: Buff Margarita's starting solider pops to 4.5%. Them and their rival are both meant to day 1 dec for a country (texas) and yet Marg has only 2 brigades and 1.4% soldiers and Skamisc has 4.1% soldiers and 11 brigades. Just makes it more fair. 
+
+Japan: Rework them tbh. They need to get the South Japanese guys accepted after winning war and inherit the two nations. 
+Should be given more civ progress (currently 45% I'd say 50-60%) to allow them to fight the Netherlands. 
+Also give them a decision to get cores on Korea after uniting Japan for like 15 infamy. 
+**Need to actually playtest them**
+
+Ethiopia: 
+Add decision for once getting all their cores to then spend 10 infamy and get cores on rest of Somaliland + Sudan accepted and once they own Cairo (1745) they get Misri accepted. 
+
+Mexica: 
+Remove Chalagawtha needed (Prov ID = 182)
+
+New addition. Bug with Aengland decision when they reclaim Denmark they get a life rating decision that's spamable and you can get 90 life rating. Needs to be fixed.
+
+
+# Original Readme:
 Initial Release, still needs more optimizations done to make the game run less like shit (remove unneeded tags, consolidate religions) but it should be mostly playable now.
 
 Based on Demonade's MP HtA edit and specifically the Dempsey edit, the mod is intended to make HtA actually fucking playable in MP by fixing the fucked Eco and balancing it out to make the gameplay more interesting.
