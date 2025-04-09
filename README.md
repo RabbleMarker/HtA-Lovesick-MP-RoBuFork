@@ -1,6 +1,8 @@
 # HtA-Lovesick-MP, Forked and modified for the Map Forge Sunday game
 **Changes Done or Planned to be done:**
 
+Uilscyr: Fix the broken "Intervene in Lagos" decision
+
 Byzantium: Make the Crimea decision a bit more incentivising by giving Caucasian minor accepted. Give Russia Caucasian minor accepted too to compensate.
 
 Persia: After Persia has completed their 2nd decision for incorporating the Pashtun give them one more decision that for 12.5 infamy they get cores on the Sikh Empire and Sindh for the *gateway into India*. 
