@@ -1,0 +1,18 @@
+political_decisions = {
+	Continue_to_push_north = {
+		potential = {
+			tag = ETH					
+		}
+		
+		allow = {
+			owns = 1745
+			owns = 2559
+			owns = 1834
+                        owns = 1761
+                        owns = 1760
+			war = no
+		}
+		
+		effect = {
+                        add_accepted_culture = misri
+                        prestige = 50

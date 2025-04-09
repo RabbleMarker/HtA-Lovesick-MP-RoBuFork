@@ -1,0 +1,49 @@
+political_decisions = {
+	Unite_The_Tribes = {
+		potential = {
+			tag = SHW					
+		}
+		
+		allow = {
+			owns = 1867
+			owns = 1857
+			owns = 1862
+                        owns = 1873
+                        owns = 1871
+			war = no
+		}
+		
+		effect = {
+			change_tag = ETH
+			add_accepted_culture = amhara
+			SHW = { annex_to = THIS }
+			SHW = { all_core = { remove_core = SHW } }
+			SHW = { all_core = { add_core = THIS } }	
+			prestige = 15
+			1865 = {add_core = ETH}
+			1867 = {add_core = ETH}
+                        1866 = {add_core = ETH}
+                        1861 = {add_core = ETH}
+			1859 = {add_core = ETH}
+                        1874 = {add_core = ETH}
+                        1873 = {add_core = ETH}
+			1872 = {add_core = ETH}
+                        1871 = {add_core = ETH}
+                        1869 = {add_core = ETH}
+			1868 = {add_core = ETH}
+                        1870 = {add_core = ETH}
+                        1864 = {add_core = ETH}
+			1860 = {add_core = ETH}
+                        1862 = {add_core = ETH}
+                        1863 = {add_core = ETH}
+			1854 = {add_core = ETH}
+                        1855 = {add_core = ETH}
+                        1853 = {add_core = ETH}
+			1858 = {add_core = ETH}
+                        1857 = {add_core = ETH}
+                        1856 = {add_core = ETH}
+			1852 = {add_core = ETH}
+                        1875 = {add_core = ETH}
+		}
+	}
+}
