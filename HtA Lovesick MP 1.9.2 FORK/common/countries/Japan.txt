@@ -1,4 +1,5 @@
 color = { 194  123  47 }
+prussian_constitutionalism = { 130  0  15 }
 graphical_culture = JapaneseGC
 
 party = {
