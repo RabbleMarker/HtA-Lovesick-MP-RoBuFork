@@ -12,7 +12,8 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = claimed_korea
-			any_owned = {
+			KOR = { all_core = { add_core = TKG } }
+                             any_owned = {
 				limit = {
 					is_core = KOR
 				}
@@ -41,10 +42,9 @@ political_decisions = {
 
                 effect = {
                         add_accepted_culture = ainu
-                        JAP = { all_core = { remove_core = JAP } }
                         JAP = { all_core = { add_core = TKG } }
-                        KOR = { all_core = { remove_core = KOR } }
-                        KOR = { all_core = { add_core = TKG } }
+                        JAP = { all_core = { remove_core = JAP } 
+                        CHO = { all_core = { add_core = TKG } }
 
 			}
 		}
