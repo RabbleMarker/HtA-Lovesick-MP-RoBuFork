@@ -12,8 +12,9 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = claimed_korea
-			KOR = { all_core = { add_core = TKG } }
-                             any_owned = {
+			  KOR = { all_core = { add_core = TKG } }    
+                          KOR = { all_core = { remove_core = KOR } }
+                              any_owned = {
 				limit = {
 					is_core = KOR
 				}
@@ -49,5 +50,4 @@ political_decisions = {
 			}
 		}
 	}
-
 }	

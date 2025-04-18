@@ -524,7 +524,7 @@ SIC = {
     color3= { 131 101 85  }
 }
 
-# Siebenbürgen
+# Siebenbï¿½rgen
 SIE = {
     color1= { 75 111 205  }
     color2= { 124 140 162  }
@@ -829,7 +829,7 @@ DAI = {
 
 # Japan
 JAP = {
-    color1= { 209 0 0  }
+    color1= { 0 0 120  }
     color2= { 37 37 37  }
     color3= { 219 192 50  }
 }
@@ -1043,4 +1043,12 @@ LCT = {
     color1= { 123 183 244  }
     color2= { 255 255 255  }
     color3= { 188 80 87  }
+}
+
+
+#Tokugawa
+TKG = {
+color1 = { 0 0 120}
+color2 = {0 0 120}
+color3 = { 0 0 120}
 }

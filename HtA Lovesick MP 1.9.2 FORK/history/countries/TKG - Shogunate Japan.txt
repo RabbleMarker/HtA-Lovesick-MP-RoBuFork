@@ -1,3 +1,4 @@
+
 capital = 1649
 primary_culture = japanese
 religion = shinto
@@ -6,6 +7,7 @@ plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.08
 non_state_culture_literacy = 0.35
+
 
 # Political reforms
 slavery = no_slavery
