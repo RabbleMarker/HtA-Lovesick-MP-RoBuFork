@@ -5,7 +5,7 @@
 
 - Ethiopia: Gets additional expansion decisions after unifying their country. They can get cores on the rest of Somaliland, Sudanese accepted and - if they own Cairo (1745) - Misri accepted. 
 
-- Aengland: Fixed bug a spammable decision, where they were able to generate life rating out of thin air by reclaiming Denmark.
+- Aengland: Fixed an exploit allowing them to get infinite life rating by trading moving their capital back and forth after reclaiming Denmark.
 
 
 **Changes planned to be done:**
@@ -14,7 +14,6 @@ Uilscyr: Fix the broken "Intervene in Lagos" decision
 
 Mexica: 
 Fix a decision to remove the Chalagawtha Province requirement (Prov ID = 182)
-
 
 Byzantium: Make the Crimea decision a bit more incentivising by giving Caucasian minor accepted. Give Russia Caucasian minor accepted too to compensate.
 
